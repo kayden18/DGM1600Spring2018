@@ -21,3 +21,7 @@ public class Animal : MonoBehaviour {
 		
 	}
 }
+//Animal is the name for the class and so is MonoBehaviour. The difference is that Animal is a class inside the MonoBehaviour class. 
+//void is a type of function that can be made inside of a class, while Start is a function that can be called by other functions. 
+//functions are boxes that are inside of the class which is another box that is inside of MonoBehaviour which is yet another box.
+//there can be as many classes as you want and as many functions inside those classes as you want. 
