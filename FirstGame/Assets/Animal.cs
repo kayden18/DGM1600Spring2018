@@ -25,3 +25,7 @@ public class Animal : MonoBehaviour {
 //void is a type of function that can be made inside of a class, while Start is a function that can be called by other functions. 
 //functions are boxes that are inside of the class which is another box that is inside of MonoBehaviour which is yet another box.
 //there can be as many classes as you want and as many functions inside those classes as you want. 
+//int is a whole number
+//void is a data type
+//floats are part of a number 1.0001 (fractions)
+//a string is string of letters numbers and characters
