@@ -27,6 +27,14 @@ public class stringNotes : MonoBehaviour {
 		if(foodCount < 0){
 			print("I need more food");
 		}
+		if(foodCount > 0)
+		{
+			print("Yay food");
+		}
+		if(Name != "Fish")
+		{
+			print("Blub");
+		}
 	}
 }
 //if statements check for true or false outcomes

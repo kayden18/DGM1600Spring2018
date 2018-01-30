@@ -5,6 +5,7 @@ using UnityEngine;
 public class KeyRing : MonoBehaviour {
 
 	public bool doorLock = true;
+	public bool windowLock = true;
 	void OnMouseDown()
 	{
 		if(doorLock == false){
@@ -12,7 +13,15 @@ public class KeyRing : MonoBehaviour {
 		}
 		if(doorLock == true)
 		{
-			print("Door is unlocked");
+			print("Door is unlocked.");
+		}
+		if(windowLock == false)
+		{
+			print("Window is locked.");
+		}
+		if(windowLock == true)
+		{
+			print("Window is unlocked.");
 		}
 	}
 }
