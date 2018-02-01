@@ -25,3 +25,7 @@ public class KeyRing : MonoBehaviour {
 		}
 	}
 }
+//else statements require if statements
+// = assign value
+// == check equality
+// != check for unequality
