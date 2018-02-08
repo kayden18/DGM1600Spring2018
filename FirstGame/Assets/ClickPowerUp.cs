@@ -9,7 +9,7 @@ public class ClickPowerUp : MonoBehaviour {
 	{
 		if (MyPowerUp.PowerLevel >= 100)
 		{
-			print("I have the power.");
+			print("I have the power!!!");
 		}
 	}
 }
