@@ -8,9 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9c61de76b9d2c24ea79b2ee7e53d7db, type: 3}
-  m_Name: Player three
+  m_Script: {fileID: 11500000, guid: 2385ea4587ad69141b3b10616f618f54, type: 3}
+  m_Name: Health
   m_EditorClassIdentifier: 
-  PlayerName: zeldalover192
-  Score: 2031
-  MP: 666
+  PowerLevel: 0
+  ExtraPower: 0

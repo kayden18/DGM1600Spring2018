@@ -13,6 +13,6 @@ public class ListsandLoops : MonoBehaviour {
 
 	private void OnMouseDown()
 	{
-		TheIncredibles.FamilyList.Add(AddMember.Text);
+		TheIncredibles.FamilyList.Add(AddMember.text);
 	}
 }
