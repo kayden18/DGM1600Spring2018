@@ -16,7 +16,7 @@ public class ForLoop : MonoBehaviour {
 		}
 	}
 
-	private void void Update()
+	private void Update()
 	{
 		if(Input.GetKeyDown(KeyCode.Space)){
 			Run();
