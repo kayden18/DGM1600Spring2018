@@ -5,6 +5,10 @@ using UnityEngine;
 public class FunctionsWithParameters : MonoBehaviour {
 
 	public int Health = 20;
+	public int Ammo = 0;
+	public int Food = 100;
+	public int Armor = 30;
+	
 
 	void OnTriggerEnter(Collider other)
 	{
