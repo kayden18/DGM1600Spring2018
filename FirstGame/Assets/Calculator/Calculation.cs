@@ -13,5 +13,5 @@ public abstract class Calculation : ScriptableObject
 		bNum = float.Parse(b);
 		return FinishCalculation();
 	}
-	public abstract float FinishCalculation()
+	public abstract float FinishCalculation();
 }
