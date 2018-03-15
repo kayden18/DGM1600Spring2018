@@ -4,14 +4,19 @@ using UnityEngine;
 
 public abstract class Calculation : ScriptableObject 
 {
-	public float aNum;
-	public float bNum;
+	protected float aNum;
+	protected float bNum;
 
-	public float Calculate(string a, string b){
+	public string Calculate(string a, string b){
 
 		aNum = float.Parse(a);
 		bNum = float.Parse(b);
 		return FinishCalculation();
 	}
-	public abstract float FinishCalculation();
+	public abstract string FinishCalculation();
 }
+
+//access modifiers private/public/protected
+//private only the parent script can see it
+//public every script can see it 
+//protected can only be seen by the parent script and it child scripts
