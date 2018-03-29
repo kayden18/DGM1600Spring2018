@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssestMenu]
+[CreateAssetMenu]
 
 public class SpeedChange : ScriptableObject {
-    private void OnCollisionEnter(Collision collision)
+    
+    public float OnCollision()
         {
-            return float speed = speed++;
+            float speed;
+            return speed = 12.0F;
         }
 }
