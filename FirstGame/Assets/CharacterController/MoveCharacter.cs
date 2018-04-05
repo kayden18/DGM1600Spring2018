@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveCharacter : MonoBehaviour {
 	
+	public MovePattern MovePattern;
 	private CharacterController controller;
 
 	void Start()
@@ -11,7 +12,7 @@ public class MoveCharacter : MonoBehaviour {
 		controller = GetComponent<CharacterController>();
 	}
 
-    public void RunController(CharacterController controller, Transform transform){
-
-    }
+    void Update() {
+        MovePattern.Move(controller, transform);
+	}
 }

@@ -6,7 +6,8 @@ using UnityEngine;
 public class FloatConstant : InputBase {
 
 	public float FloatValue = 0;
-	public override float SetFloat(){
+	public override float SetFloat()
+	{
 		return FloatValue;
 	}
 }

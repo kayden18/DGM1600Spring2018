@@ -139,9 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443ff5bd409a59443848136cb8dcc7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
-  jumpSpeed: 50
-  gravity: 20
+  MovePattern: {fileID: 11400000, guid: 3c6e888ac120e5544aeafe5b94a9bb6b, type: 2}
 --- !u!23 &103034129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -320,7 +318,7 @@ GameObject:
   - component: {fileID: 465153763}
   - component: {fileID: 465153762}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
