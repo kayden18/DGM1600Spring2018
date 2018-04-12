@@ -15,13 +15,11 @@ public class MovePattern : ScriptableObject {
 
     public void Move(CharacterController controller, Transform transform){
     if (controller.isGrounded) {
-			moveDirection.x = Inputx.SetFloat();
-			moveDirection.z = Inputz.SetFloat();
-			moveDirection.y = Inputy.SetFloat();
-            moveDirection = transform.TransformDirection(moveDirection);
-            moveDirection *= speed;
-        if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
+			moveDirection.Set(InputX.SetFloat(),InputY.SetFloat(),InputZ.SetFloat());
+			moveDirection = transform.TransformDirection(moveDirection);
+			
+			moveDirection *= speed;	
+			moveDirection.y = JumpInput.SetFloat();
     }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
