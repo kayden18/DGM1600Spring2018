@@ -8,5 +8,6 @@ public class PowerUp : ScriptableObject {
 	public int PowerLevel;
 
 	public MovePattern MovePattern;
+	public PowerUp transfer;
 
 }

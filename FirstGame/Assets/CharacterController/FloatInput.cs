@@ -9,5 +9,6 @@ public class FloatInput : InputBase {
 
 	public override float SetFloat(){
 		return Input.GetAxis(InputName);
+
 	}
 }
