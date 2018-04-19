@@ -13,9 +13,9 @@ public class Trigger : MonoBehaviour {
 	{
 		HealthBar.fillAmount = PowerLevel;
 		if(HealthBar.fillAmount == 0){
-			obj.GetComponent<MoveCharacter>().MovePattern = PowerUp.transfer.MovePattern;
-		}
-		obj.GetComponent<MoveCharacter>().MovePattern = PowerUp.transfer.MovePattern;
+			obj.GetComponent<MoveCharacter>().Player.MovePattern = PowerUp.transfer.MovePattern;
+
 		gameObject.SetActive(false);
+		}
 	}
 }

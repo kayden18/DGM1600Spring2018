@@ -6,4 +6,6 @@ using UnityEngine;
 public class Players : ScriptableObject {
 
 	public int Health;
+
+	public MovePattern MovePattern;
 }
