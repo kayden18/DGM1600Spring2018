@@ -15,5 +15,5 @@ MonoBehaviour:
   jumpSpeed: 40
   gravity: 20
   Inputx: {fileID: 11400000, guid: 3a80653557151594986c19a2f5dc457f, type: 2}
-  Inputy: {fileID: 11400000, guid: ebd17f45ac52cda419ca4478f96967f6, type: 2}
+  Inputy: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
   Inputz: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
