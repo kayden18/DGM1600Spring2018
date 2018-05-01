@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f37cf192961e4a9418c60acb1839cf4f, type: 3}
-  m_Name: Dead
+  m_Name: FastMovement
   m_EditorClassIdentifier: 
-  speed: 0
-  jumpSpeed: 0
-  gravity: 0
-  Inputx: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
-  Inputy: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
-  Inputz: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
+  speed: 6
+  gravity: 20
+  InputX: {fileID: 0}
+  InputY: {fileID: 0}
+  InputZ: {fileID: 0}
+  JumpInput: {fileID: 0}

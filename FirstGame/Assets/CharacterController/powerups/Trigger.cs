@@ -6,16 +6,23 @@ using UnityEngine.UI;
 public class Trigger : MonoBehaviour {
 
 	public PowerUp PowerUp;
-	public float PowerLevel = 0.2f;
-	public Image HealthBar;
+    private MoveCharacter prevMoveCharacter;
+    private MovePattern prevMovePattern;
+    private float TimeToRestore = 2;
 
 	private void OnTriggerEnter(Collider obj)
 	{
-		HealthBar.fillAmount = PowerLevel;
-		if(HealthBar.fillAmount == 0){
-			obj.GetComponent<MoveCharacter>().Player.MovePattern = PowerUp.transfer.MovePattern;
+        prevMoveCharacter = obj.GetComponent<MoveCharacter>();
+        prevMovePattern = prevMoveCharacter.MovePattern;
+
+        obj.GetComponent<MoveCharacter>().MovePattern = PowerUp.MovePattern;
+
+        Invoke("RestoreMovePattern", TimeToRestore);
 
 		gameObject.SetActive(false);
 		}
+    void RestoreMovePattern()
+    {
+        prevMoveCharacter.MovePattern = prevMovePattern;
 	}
 }

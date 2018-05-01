@@ -9,6 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a31e80d61c1171244919f9b4e58c605f, type: 3}
-  m_Name: HighLvl
+  m_Name: SpeedUp
   m_EditorClassIdentifier: 
-  PowerLevel: 100
+  PowerLevel: 0
+  MovePattern: {fileID: 0}
+  transfer: {fileID: 0}
