@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f37cf192961e4a9418c60acb1839cf4f, type: 3}
-  m_Name: sideScroller
+  m_Name: Death
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 0
   gravity: 20
   InputX: {fileID: 11400000, guid: 3a80653557151594986c19a2f5dc457f, type: 2}
-  InputY: {fileID: 11400000, guid: ebd17f45ac52cda419ca4478f96967f6, type: 2}
+  InputY: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
   InputZ: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
   JumpInput: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}

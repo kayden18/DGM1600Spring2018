@@ -12,7 +12,7 @@ public class MovePattern : MovePatternBase {
             moveDirection = transform.TransformDirection(moveDirection);
 
             moveDirection *= speed;
-            moveDirection.y = JumpInput.SetFloat();
+            //moveDirection.y = JumpInput.SetFloat();
         }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
