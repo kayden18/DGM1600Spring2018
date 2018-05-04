@@ -33,7 +33,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!114 &114479053999903832
+--- !u!114 &114251089151782472
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7339df9d24a97da4cb75f68507894183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveCharacter: {fileID: 0}
   MovePattern: {fileID: 11400000, guid: 3b32ef776ef8c564e93657f19ea1fe9b, type: 2}
 --- !u!114 &114731692783324802
 MonoBehaviour:
@@ -56,6 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7339df9d24a97da4cb75f68507894183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveCharacter: {fileID: 0}
   MovePattern: {fileID: 11400000, guid: 3c6e888ac120e5544aeafe5b94a9bb6b, type: 2}
 --- !u!114 &114972645398137064
 MonoBehaviour:
@@ -68,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7339df9d24a97da4cb75f68507894183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveCharacter: {fileID: 0}
   MovePattern: {fileID: 11400000, guid: 3c6e888ac120e5544aeafe5b94a9bb6b, type: 2}
 --- !u!1101 &1101248259211622528
 AnimatorStateTransition:
@@ -127,8 +130,7 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
-  m_StateMachineBehaviours:
-  - {fileID: 114479053999903832}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -150,10 +152,11 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: EndGame
-  m_Speed: 1
+  m_Speed: 0
   m_CycleOffset: 0
   m_Transitions: []
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114251089151782472}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1

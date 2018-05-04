@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeState : StateMachineBehaviour {
 
-    //public MoveCharacter MoveCharacter;
+    public MoveCharacter MoveCharacter;
 	public MovePattern MovePattern;
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
