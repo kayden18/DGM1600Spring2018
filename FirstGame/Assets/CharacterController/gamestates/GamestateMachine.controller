@@ -8,18 +8,18 @@ AnimatorController:
   m_Name: GamestateMachine
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: end game
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: start game
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: end game
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -44,8 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7339df9d24a97da4cb75f68507894183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 11400000, guid: 498d1bd44b14fe14aa79a07e3db8a7f1, type: 2}
-  MovePattern: {fileID: 0}
+  MovePattern: {fileID: 11400000, guid: 3b32ef776ef8c564e93657f19ea1fe9b, type: 2}
 --- !u!114 &114731692783324802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57,7 +56,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7339df9d24a97da4cb75f68507894183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 11400000, guid: 498d1bd44b14fe14aa79a07e3db8a7f1, type: 2}
   MovePattern: {fileID: 11400000, guid: 3c6e888ac120e5544aeafe5b94a9bb6b, type: 2}
 --- !u!114 &114972645398137064
 MonoBehaviour:
@@ -70,7 +68,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7339df9d24a97da4cb75f68507894183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 11400000, guid: 498d1bd44b14fe14aa79a07e3db8a7f1, type: 2}
   MovePattern: {fileID: 11400000, guid: 3c6e888ac120e5544aeafe5b94a9bb6b, type: 2}
 --- !u!1101 &1101248259211622528
 AnimatorStateTransition:

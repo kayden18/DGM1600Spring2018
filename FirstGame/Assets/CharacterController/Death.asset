@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   gravity: 20
-  InputX: {fileID: 11400000, guid: 3a80653557151594986c19a2f5dc457f, type: 2}
+  InputX: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
   InputY: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
   InputZ: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
   JumpInput: {fileID: 11400000, guid: d99e9ecb72785be498fdd034cd2732a9, type: 2}
